@@ -1,0 +1,13 @@
+# DID Resolve
+GET http://localhost:3000/identifiers/did:ion:test:EiDmTwW5Ld-21XXX6QvV8zFyPyvpyennyT3IOrws3nh7AQ
+###
+
+# DID Create
+POST http://localhost:3000/operations
+Content-Type: application/json
+
+{
+
+}
+
+###
