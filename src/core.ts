@@ -97,7 +97,7 @@ app.use((ctx, _next) => {
     await sidetreeCore.initialize();
 
     const port = config.port;
-    app.listen(port, () => {
+    app.listen(port, '0.0.0.0', () => {
       console.log(`Sidetree node running on port: ${port}`);
     });
   } catch (error) {
