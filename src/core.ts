@@ -25,7 +25,6 @@ interface ServerConfig extends SidetreeConfig {
 let configFilePath = '../json/testnet-core-config.json';
 if (process.env.ION_CORE_CONFIG_FILE_PATH === undefined) {
   console.log(LogColor.yellow(`Environment variable ION_CORE_CONFIG_FILE_PATH undefined, using default core config path ${configFilePath} instead.`));
-  console.log(LogColor.yellow(`TestTestTest0620`));
 } else {
   configFilePath = process.env.ION_CORE_CONFIG_FILE_PATH;
   console.log(LogColor.lightBlue(`Loading core config from ${LogColor.green(configFilePath)}...`));
